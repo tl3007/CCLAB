@@ -1,0 +1,44 @@
+a{
+  color: black;
+}
+
+/* TEXT (HOME PAGE)*/
+h6{
+  text-align: center;
+  font-size: 10px;
+  font-family:monospace;
+}
+
+h1{
+  font-family:monospace;
+}
+
+.link-style{
+  font-family:monospace;
+}
+
+/* WHALE BG */
+#wale-bg {
+  background-color: AntiqueWhite;
+}
+
+/* WHALE IMG */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/* WHITE WRITING (LYRICS PAGE) */
+.white-writing{
+  color: white;
+}
+
+/* POSITIONING IMGS */
+.column {
+  float: left;
+  width: 31.869%;
+  padding: 5px;
+}

@@ -1,0 +1,13 @@
+body{
+  background-color: pink;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+p{
+  color: blue;
+}
+
+.link-style{
+  font-size: 30px;
+}
