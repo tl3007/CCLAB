@@ -1,0 +1,170 @@
+html, body {
+  background-color: rgb(159,129,112);
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  margin: 0px;
+  left: calc(100% - 0px);
+
+  margin: auto;
+  right: 15px;
+  padding-top: 0px;
+}
+
+/* P5 CANVAS */
+#p5-canvas-container2 {
+  position: absolute;
+  left: 0px;
+
+  margin: auto;
+  padding-top: 0px;
+}
+
+#second-container {
+  width:100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+
+  margin: auto;
+  padding-top: 0px;
+}
+
+/* MORE DEPRESSO, LESS DEPRESSO TITLE */
+.title-div {
+  background-color: invisible;
+  position: absolute;
+  width: 1500px;
+  height: 100px;
+  margin: auto;
+  left: -450px;
+  padding-top: 10px;
+}
+
+p{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Fredericka the Great', cursive;
+  position: absolute;
+  top: -69px;
+}
+
+/* TITLE & INTRUCTIONS BG */
+#main{
+  max-width: 450px;
+  max-height: 180px;
+  position: absolute;
+  top: 50px;
+  left: 530px;
+}
+
+/* INTRUCTIONS TEXT */
+.directions{
+  color: rgb(26, 9, 0);
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: -110px;
+  left:550px;
+  text-align: left;
+}
+
+/* BUTTON */
+.btn1 {
+  position: absolute;
+  top: 289px;
+  left: 625px;
+  background-color: rgb(210, 125, 45);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* RECIPE SLIDESHOW = REFERENCE TO @W3SCHOOLS */ 
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 300px;
+  position: absolute;
+  top: 200px;
+  right: -350px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: rgb(26, 9, 0);
+  font-size: 13px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50px;
+  left:15px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
